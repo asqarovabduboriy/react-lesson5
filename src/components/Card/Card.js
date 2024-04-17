@@ -84,7 +84,8 @@ function Card() {
     ))
     const banner_arr = ["Galaxy S24 Ultra ", "Galaxy S24 +", " Galaxy Book4 Ultra", " Galaxy Tab S9 Series ", " Galaxy Watch6 Series"];
     const banner_arr_two = ["The Frame", "The Freestyle 2nd Gen", "usic Frame "]
-    const banner_arrthere = ["Certified Re-Newed", "How to recycle"] 
+    const banner_arrthere = ["Certified Re-Newed", "How to recycle"]
+    const banner_four = ["Bespoke AI", "Bespoke Refrigerator",  "Bespoke Laundry "]
     return (
         <>
             <div className='container'>
@@ -116,11 +117,11 @@ function Card() {
             />
             <div className='container'>
             <Banner
-                text={banner_arr_two}
-                title={"TV & Audio"}
+                text={banner_four}
+                title={"Home Appliances "}
                 img={photo8}
-                h1text={'Buy. Bezel. Beauty.'}
-                ptext={'Buy the Frame, get a Customizable Bezel on us..'}
+                h1text={'New Bespoke AI Appliances'}
+                ptext={'Pre-order and save up to $1,200 on our latest technology.'}
                 btn='Pre order'
             />
             </div>
