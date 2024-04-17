@@ -1,0 +1,84 @@
+
+
+.banner_title {
+    font-family: 'SamsungSharpSans', arial, sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 1.2;
+    color: currentColor;
+    text-align: center;
+    padding-top: 48px;
+}
+
+.banner_ul_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.banner_item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+    font-family: 'SamsungOne', arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    line-height: 24px;
+    padding: 4px 8px;
+    -webkit-transition: color .2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color .2s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+
+.banner_item:hover {
+    background-color: rgba(225, 225, 225, 0.5);
+    border-radius: 18px;
+    text-decoration: underline;
+}
+.text_content_banneer{
+    text-align: center;
+     padding: 418px 24px 30px 24px;
+     margin-top: 30px;
+}
+
+.text_content_banneer h1{
+    margin-bottom: 8px;
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.2;
+    text-align: center;
+    word-wrap: break-word;
+    white-space: normal
+}
+
+.text_content_banneer p{
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    word-wrap: break-word;
+    white-space: normal
+}
+
+.text_content_banneer button{
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    padding: 10px 20px;
+}
+
+.text_content_banneer button:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.imgs_o8{
+    margin-top: 30px;
+}

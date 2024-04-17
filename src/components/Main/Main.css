@@ -1,0 +1,54 @@
+.bg_img{
+    background-image: url('../../assets/Img/Home_KV_Buy-Now_Desktop_1440x640.webp');
+    background-repeat: no-repeat;
+    background-repeat:round;
+    width: 100%;
+    height: 100vh;
+    cursor: pointer;
+}
+
+.main_text_content{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 350px;
+}
+
+.main_text_content span{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.33;
+    color: currentColor;
+    word-wrap: break-word
+}
+
+.main_text_content h1{
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.2;
+    color: currentColor;
+    word-wrap: break-word;
+    margin-top: 16px;
+}
+
+.main_text_content p{
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 1.33;
+    color: currentColor;
+    word-wrap: break-word;
+}
+
+.main_text_content button{
+    background-color:black ;
+    color: white;
+    border-radius: 20px;
+    padding:10px 20px;
+    margin-top: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.main_text_content button:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
